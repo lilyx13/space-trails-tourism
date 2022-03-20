@@ -1,0 +1,65 @@
+{
+  "story": {
+    "name": "Technology",
+    "created_at": "2022-02-19T22:28:12.710Z",
+    "published_at": "2022-02-19T22:28:17.897Z",
+    "alternates": [],
+    "id": 109915664,
+    "uuid": "285bf4c8-64eb-46cb-9265-fbd268eece16",
+    "content": {
+      "_uid": "f62594ee-3b30-4381-9bda-7e8f3c6cddaf",
+      "body": [],
+      "nav_bar": [],
+      "nav_logo": [],
+      "component": "page",
+      "background_image": [
+        {
+          "id": 4098968,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "filename": "https://a.storyblok.com/f/147622/1440x900/b91917804e/background-technology-desktop.jpg",
+          "copyright": null,
+          "fieldtype": "asset"
+        },
+        {
+          "id": 4098970,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "filename": "https://a.storyblok.com/f/147622/768x1024/a9be057c08/background-technology-tablet.jpg",
+          "copyright": null,
+          "fieldtype": "asset"
+        },
+        {
+          "id": 4098969,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "filename": "https://a.storyblok.com/f/147622/375x710/f33ea19fcc/background-technology-mobile.jpg",
+          "copyright": null,
+          "fieldtype": "asset"
+        }
+      ],
+      "_editable": "\u003c!--#storyblok#{\"name\": \"page\", \"space\": \"147622\", \"uid\": \"f62594ee-3b30-4381-9bda-7e8f3c6cddaf\", \"id\": \"109915664\"}--\u003e"
+    },
+    "slug": "technology",
+    "full_slug": "technology/",
+    "default_full_slug": null,
+    "sort_by_date": null,
+    "position": -30,
+    "tag_list": [],
+    "is_startpage": true,
+    "parent_id": 109915643,
+    "meta_data": null,
+    "group_id": "8f0bf754-7308-431a-9379-8e5df2dd9833",
+    "first_published_at": "2022-02-19T22:28:17.897Z",
+    "release_id": null,
+    "lang": "default",
+    "path": null,
+    "translated_slugs": []
+  }
+}

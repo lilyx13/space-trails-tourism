@@ -30,10 +30,10 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ["~/plugins/components"],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: ["~/components", "~/components/ui", "~/components/storyblok"],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -68,6 +68,7 @@ export default {
     accessToken: process.env.STORYBLOK_API_KEY,
     bridge: true,
     cacheProvider: "memory",
+    useApiClient: true,
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
