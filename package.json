@@ -18,9 +18,11 @@
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.0.2"
+  },
   "resolutions": {
-    "glob-parent": "^5.1.2",
+    "glob-parent": "6.0.0",
     "nth-check": "^2.0.1"
   }
 }
