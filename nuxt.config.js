@@ -14,7 +14,17 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "stylesheet",
+        href: "",
+      },
+      {
+        rel: "stylesheet",
+        href: "",
+      },
+    ],
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
@@ -29,6 +39,7 @@ export default {
   buildModules: [
     "@nuxtjs/composition-api/module",
     "@nuxtjs/dotenv",
+    "@nuxtjs/google-fonts",
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
     "nuxt-webpack-optimisations",
@@ -47,9 +58,16 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: "/",
   },
+  googleFonts: {
+    families: {
+      Bellefair: true,
+      "Barlow+Condensed": true,
+    },
+  },
   storyblok: {
     accessToken: process.env.STORYBLOK_API_KEY,
     bridge: true,
+    cacheProvider: "memory",
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
