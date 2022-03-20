@@ -16,7 +16,6 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
@@ -29,9 +28,11 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     "@nuxtjs/composition-api/module",
+    "@nuxtjs/dotenv",
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
     "nuxt-webpack-optimisations",
+    "@storyblok/nuxt/module",
     "@vueuse/nuxt",
   ],
 
@@ -46,7 +47,10 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: "/",
   },
-
+  storyblok: {
+    accessToken: process.env.STORYBLOK_API_KEY,
+    bridge: true,
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 };
