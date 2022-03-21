@@ -21,10 +21,10 @@
   h6 {
     @apply font-sans uppercase text-sm tracking-wide;
   }
-  h6.serif {
+  .serif {
     @apply font-serif normal-case text-2xl lg:text-3xl;
   }
-  h6.nav {
+  .nav {
     @apply font-sans text-base tracking-wider;
   }
   p {
